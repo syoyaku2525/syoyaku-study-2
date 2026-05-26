@@ -12,6 +12,8 @@ localStorage.getItem(
 )
 )||[];
 
+let weakMode=false;
+
 let reviewMode=false;
 
 
@@ -92,6 +94,26 @@ x.name
 }
 
 
+if(weakMode){
+
+const weakHerbs=
+sourceData.filter(
+h=>wrongQuestions.includes(
+h.name
+)
+);
+
+currentQuestion=
+
+weakHerbs[
+Math.floor(
+Math.random()*
+weakHerbs.length
+)
+];
+
+}else{
+
 currentQuestion=
 
 sourceData[
@@ -100,6 +122,8 @@ Math.random()*
 sourceData.length
 )
 ];
+
+}
 
 
 let choices=[];
@@ -451,5 +475,24 @@ width="200">
 </div>
 
 `;
+
+}
+function startWeakMode(){
+
+const weakNames=wrongQuestions;
+
+if(weakNames.length===0){
+
+alert(
+"苦手問題がありません"
+);
+
+return;
+
+}
+
+weakMode=true;
+
+loadQuestion();
 
 }
