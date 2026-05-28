@@ -17,15 +17,13 @@ let weakMode=false;
 let reviewMode=false;
 
 
-fetch("data/herbs.json")
+fetch("herbs.json")
 
 .then(response=>response.json())
 
 .then(data=>{
 
 herbs=data;
-
-loadQuestion();
 
 });
 
