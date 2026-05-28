@@ -315,6 +315,20 @@ showDetail();
 
 }
 
+function startQuiz(){
+
+document.getElementById(
+"homeScreen"
+).style.display="none";
+
+document.getElementById(
+"quizScreen"
+).style.display="block";
+
+loadQuestion();
+
+}
+
 
 function showDetail(){
 
@@ -496,3 +510,4 @@ weakMode=true;
 loadQuestion();
 
 }
+

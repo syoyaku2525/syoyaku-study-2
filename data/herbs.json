@@ -1,9 +1,9 @@
 [
 {
-"name":"人参",
+"name":"人参 ニンジン",
 "latin":"Ginseng Radix",
 "ingredient":"ジンセノシド",
-"effect":"強壮・健胃・滋養",
+"effect":"強壮・補気",
 "origin":"オタネニンジン",
 "family":"ウコギ科",
 "image":"images/herbs/ninjin.jpg",
@@ -11,10 +11,10 @@
 },
 
 {
-"name":"甘草",
+"name":"甘草 カンゾウ",
 "latin":"Glycyrrhizae Radix",
 "ingredient":"グリチルリチン",
-"effect":"鎮咳・去痰・抗炎症",
+"effect":"鎮痛鎮座作用・矯味薬",
 "origin":"ウラルカンゾウ",
 "family":"マメ科",
 "image":"images/herbs/kanzo.jpg",
@@ -22,10 +22,10 @@
 },
 
 {
-"name":"大棗",
+"name":"大棗 タイソウ",
 "latin":"Zizyphi Fructus",
 "ingredient":"ジジフスサポニン",
-"effect":"滋養・鎮静",
+"effect":"強壮・補気",
 "origin":"ナツメ",
 "family":"クロウメモドキ科",
 "image":"images/herbs/taiso.jpg",
@@ -33,10 +33,10 @@
 },
 
 {
-"name":"厚朴",
+"name":"厚朴 コウボク",
 "latin":"Magnoliae Cortex",
 "ingredient":"マグノロール",
-"effect":"健胃・鎮静",
+"effect":"健胃・理気",
 "origin":"ホオノキ",
 "family":"モクレン科",
 "image":"images/herbs/koboku.jpg",
@@ -44,10 +44,10 @@
 },
 
 {
-"name":"陳皮",
+"name":"陳皮 チンピ",
 "latin":"Aurantii Nobilis Pericarpium",
 "ingredient":"ヘスペリジン",
-"effect":"健胃・鎮咳",
+"effect":"芳香性健胃薬・理気",
 "origin":"ウンシュウミカン",
 "family":"ミカン科",
 "image":"images/herbs/chimpi.jpg",
@@ -55,10 +55,10 @@
 },
 
 {
-"name":"茴香",
+"name":"茴香 ウイキョウ",
 "latin":"Foeniculi Fructus",
 "ingredient":"アネトール",
-"effect":"健胃・駆風",
+"effect":"芳香性健胃薬",
 "origin":"ウイキョウ",
 "family":"セリ科",
 "image":"images/herbs/uikyo.jpg",
@@ -66,10 +66,10 @@
 },
 
 {
-"name":"紫蘇葉",
+"name":"紫蘇葉 ソヨウ",
 "latin":"Perillae Herba",
 "ingredient":"ペリルアルデヒド",
-"effect":"発汗・鎮咳",
+"effect":"芳香性健胃薬・理気",
 "origin":"シソ",
 "family":"シソ科",
 "image":"images/herbs/shisoyo.jpg",
@@ -77,10 +77,10 @@
 },
 
 {
-"name":"地黄",
+"name":"地黄 ジオウ",
 "latin":"Rehmanniae Radix",
 "ingredient":"カタルポール",
-"effect":"滋養・止血",
+"effect":"強壮・補血",
 "origin":"アカヤジオウ",
 "family":"ゴマノハグサ科",
 "image":"images/herbs/jio.jpg",
@@ -88,10 +88,10 @@
 },
 
 {
-"name":"当帰",
+"name":"当帰 トウキ",
 "latin":"Angelicae Radix",
 "ingredient":"リグスチリド",
-"effect":"補血・鎮痛",
+"effect":"補血・婦人薬",
 "origin":"トウキ",
 "family":"セリ科",
 "image":"images/herbs/toki.jpg",
@@ -99,10 +99,10 @@
 },
 
 {
-"name":"芍薬",
+"name":"芍薬 シャクヤク",
 "latin":"Paeoniae Radix",
 "ingredient":"ペオニフロリン",
-"effect":"鎮痛・鎮痙",
+"effect":"鎮痛・補血",
 "origin":"シャクヤク",
 "family":"ボタン科",
 "image":"images/herbs/shakuyaku.jpg",
@@ -110,10 +110,10 @@
 },
 
 {
-"name":"川芎",
+"name":"川芎 センキュウ",
 "latin":"Cnidii Rhizoma",
 "ingredient":"リグスチリド",
-"effect":"駆瘀血・鎮痛",
+"effect":"駆瘀血",
 "origin":"センキュウ",
 "family":"セリ科",
 "image":"images/herbs/senkyu.jpg",
@@ -121,10 +121,10 @@
 }
 ,
 {
-"name":"牡丹皮",
+"name":"牡丹皮 ボタンピ",
 "latin":"Moutan Cortex",
-"ingredient":"パエオノール",
-"effect":"清熱・駆瘀血",
+"ingredient":"ペオニフロリン",
+"effect":"駆瘀血",
 "origin":"ボタン",
 "family":"ボタン科",
 "image":"images/herbs/botanpi.jpg",
@@ -132,7 +132,7 @@
 },
 
 {
-"name":"桃仁",
+"name":"桃仁 トウニン",
 "latin":"Persicae Semen",
 "ingredient":"アミグダリン",
 "effect":"駆瘀血・潤腸",
@@ -143,10 +143,10 @@
 },
 
 {
-"name":"紅花",
+"name":"紅花 コウカ",
 "latin":"Carthami Flos",
 "ingredient":"カルタミン",
-"effect":"駆瘀血・通経",
+"effect":"駆瘀血",
 "origin":"ベニバナ",
 "family":"キク科",
 "image":"images/herbs/benibana.jpg",
@@ -154,10 +154,10 @@
 },
 
 {
-"name":"茯苓",
+"name":"茯苓 ブクリョウ",
 "latin":"Hoelen",
-"ingredient":"パキマン",
-"effect":"利尿・鎮静",
+"ingredient":"パキマ酸",
+"effect":"利水",
 "origin":"マツホド",
 "family":"サルノコシカケ科",
 "image":"images/herbs/bukuryo.jpg",
@@ -165,7 +165,7 @@
 },
 
 {
-"name":"白朮",
+"name":"白朮 ビャクジュツ",
 "latin":"Atractylodis Rhizoma",
 "ingredient":"アトラクチロジン",
 "effect":"健胃・利尿",
@@ -176,10 +176,10 @@
 },
 
 {
-"name":"蒼朮",
+"name":"蒼朮 ソウジュツ",
 "latin":"Atractylodis Lanceae Rhizoma",
-"ingredient":"β-オイデスモール",
-"effect":"健胃・発汗",
+"ingredient":"ヒネソール",
+"effect":"健胃・利尿",
 "origin":"ホソバオケラ",
 "family":"キク科",
 "image":"images/herbs/sojutsu.jpg",
@@ -187,7 +187,7 @@
 },
 
 {
-"name":"麦門冬",
+"name":"麦門冬 バクモンドウ",
 "latin":"Ophiopogonis Tuber",
 "ingredient":"オフィオポゴニン",
 "effect":"鎮咳・滋潤",
@@ -198,7 +198,7 @@
 }
 ,
 {
-"name":"附子",
+"name":"附子 ブシ",
 "latin":"Aconiti Tuber",
 "ingredient":"アコニチン",
 "effect":"強心・鎮痛・温補",
@@ -209,7 +209,7 @@
 },
 
 {
-"name":"呉茱萸",
+"name":"呉茱萸 ゴシュユ",
 "latin":"Evodiae Fructus",
 "ingredient":"エボジアミン",
 "effect":"鎮痛・健胃",
@@ -220,7 +220,7 @@
 },
 
 {
-"name":"山椒",
+"name":"山椒 サンショウ",
 "latin":"Zanthoxyli Fructus",
 "ingredient":"サンショオール",
 "effect":"健胃・鎮痛",
@@ -231,7 +231,7 @@
 },
 
 {
-"name":"丁香",
+"name":"丁香 チョウジ",
 "latin":"Caryophylli Flos",
 "ingredient":"オイゲノール",
 "effect":"健胃・鎮痛",
@@ -242,7 +242,7 @@
 },
 
 {
-"name":"黄芩",
+"name":"黄芩 オウゴン",
 "latin":"Scutellariae Radix",
 "ingredient":"バイカリン",
 "effect":"解熱・抗炎症",
@@ -253,7 +253,7 @@
 },
 
 {
-"name":"黄連",
+"name":"黄連 オウレン",
 "latin":"Coptidis Rhizoma",
 "ingredient":"ベルベリン",
 "effect":"抗菌・健胃",
@@ -264,7 +264,7 @@
 },
 
 {
-"name":"山梔子",
+"name":"山梔子 サンシシ",
 "latin":"Gardeniae Fructus",
 "ingredient":"ゲニポシド",
 "effect":"解熱・消炎",
@@ -275,7 +275,7 @@
 },
 
 {
-"name":"柴胡",
+"name":"柴胡 サイコ",
 "latin":"Bupleuri Radix",
 "ingredient":"サイコサポニン",
 "effect":"解熱・消炎",
@@ -286,7 +286,7 @@
 },
 
 {
-"name":"紫根",
+"name":"紫根 シコン",
 "latin":"Lithospermi Radix",
 "ingredient":"シコニン",
 "effect":"創傷治癒・抗炎症",

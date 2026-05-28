@@ -11,9 +11,70 @@
 
 <body>
 
+<!-- ホーム画面 -->
+<div id="homeScreen">    
+
 <div class="container">
 
 <h1>🌿 生薬学習アプリ</h1>
+
+<h2>
+問題形式を選択
+</h2>
+
+<label>
+<input
+type="checkbox"
+value="name"
+checked>
+
+生薬名
+</label>
+
+<label>
+<input
+type="checkbox"
+value="ingredient"
+checked>
+
+成分
+</label>
+
+<label>
+<input
+type="checkbox"
+value="latin"
+checked>
+
+ラテン名
+</label>
+
+<br><br>
+
+<button onclick="startQuiz()">
+
+クイズ開始
+
+</button>
+
+</div>
+
+
+<!-- 問題画面 -->
+<div
+id="quizScreen"
+style="display:none;"
+>
+
+<h2 id="question"></h2>
+
+<img id="questionImage">
+
+<div id="choices"></div>
+
+</div>
+
+</body>
 
 <div>
 
