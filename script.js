@@ -315,6 +315,22 @@ showDetail();
 
 function startQuiz(){
 
+const checked=
+
+document.querySelector(
+'input[name="quizMode"]:checked'
+);
+
+if(!checked){
+
+alert("形式を選択してください");
+
+return;
+
+}
+
+mode=checked.value;
+
 document.getElementById(
 "homeScreen"
 ).style.display="none";

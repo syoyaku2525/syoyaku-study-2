@@ -20,6 +20,34 @@
 
 <h2>問題形式を選択</h2>
 
+<div>
+
+<button onclick="setMode('image')">
+画像→生薬
+</button>
+
+<button onclick="setMode('ingredient')">
+成分→生薬
+</button>
+
+<button onclick="setMode('latin')">
+ラテン→生薬
+</button>
+
+<button onclick="setMode('reverseIngredient')">
+生薬→成分
+</button>
+
+<button onclick="setMode('reverseLatin')">
+生薬→ラテン
+</button>
+
+<button onclick="setMode('reverseEffect')">
+生薬→効能
+</button>
+
+</div>
+
 <label>
 <input type="checkbox" value="name" checked>
 生薬名
@@ -49,33 +77,7 @@
 <!-- 問題画面 -->
 <div id="quizScreen" style="display:none;">
 
-<div>
 
-<button onclick="setMode('image')">
-画像→生薬
-</button>
-
-<button onclick="setMode('ingredient')">
-成分→生薬
-</button>
-
-<button onclick="setMode('latin')">
-ラテン→生薬
-</button>
-
-<button onclick="setMode('reverseIngredient')">
-生薬→成分
-</button>
-
-<button onclick="setMode('reverseLatin')">
-生薬→ラテン
-</button>
-
-<button onclick="setMode('reverseEffect')">
-生薬→効能
-</button>
-
-</div>
 
 <hr>
 
