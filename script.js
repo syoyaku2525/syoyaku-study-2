@@ -289,6 +289,8 @@ ${choice}
 
 ).join("");
 
+updateWrongList();
+
 }
 
 
@@ -327,6 +329,8 @@ wrongQuestions)
 }
 
 showDetail();
+
+updateWrongList();
 
 }
 
@@ -544,3 +548,42 @@ loadQuestion();
 
 }
 
+function updateWrongList(){
+
+const wrongListDiv =
+
+document.getElementById(
+"wrongList"
+);
+
+if(wrongQuestions.length===0){
+
+wrongListDiv.innerHTML =
+
+"";
+
+return;
+
+}
+
+wrongListDiv.innerHTML =
+
+`
+
+<h3>
+📚 間違えた問題一覧
+</h3>
+
+<ul>
+
+${wrongQuestions.map(name=>
+
+`<li>${name}</li>`
+
+).join("")}
+
+</ul>
+
+`;
+
+}
