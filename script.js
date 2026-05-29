@@ -17,7 +17,7 @@ let weakMode=false;
 let reviewMode=false;
 
 
-fetch("herbs.json")
+fetch("data/herbs.json")
 
 .then(response=>response.json())
 
