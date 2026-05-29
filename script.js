@@ -323,7 +323,9 @@ document.querySelector(
 
 if(!checked){
 
-alert("形式を選択してください");
+alert(
+"形式を選択してください"
+);
 
 return;
 

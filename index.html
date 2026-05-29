@@ -1,9 +1,14 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
+
 <meta charset="UTF-8">
-<title>🌿生薬学習アプリ</title>
+
+<title>
+🌿生薬学習アプリ
+</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -11,62 +16,110 @@
 
 <body>
 
+
 <!-- ホーム画面 -->
 <div id="homeScreen">
 
 <div class="container">
 
-<h1>🌿 生薬学習アプリ</h1>
+<h1>
+🌿 生薬学習アプリ
+</h1>
 
-<h2>問題形式を選択</h2>
+<h2>
+問題形式を選択
+</h2>
 
-<div>
-
-<button onclick="setMode('image')">
-画像→生薬
-</button>
-
-<button onclick="setMode('ingredient')">
-成分→生薬
-</button>
-
-<button onclick="setMode('latin')">
-ラテン→生薬
-</button>
-
-<button onclick="setMode('reverseIngredient')">
-生薬→成分
-</button>
-
-<button onclick="setMode('reverseLatin')">
-生薬→ラテン
-</button>
-
-<button onclick="setMode('reverseEffect')">
-生薬→効能
-</button>
-
-</div>
 
 <label>
-<input type="checkbox" value="name" checked>
-生薬名
-</label>
 
-<label>
-<input type="checkbox" value="ingredient" checked>
-成分
-</label>
+<input
+type="radio"
+name="quizMode"
+value="image"
+checked>
 
-<label>
-<input type="checkbox" value="latin" checked>
-ラテン名
+画像 → 生薬
+
 </label>
 
 <br><br>
 
+
+<label>
+
+<input
+type="radio"
+name="quizMode"
+value="ingredient">
+
+成分 → 生薬
+
+</label>
+
+<br><br>
+
+
+<label>
+
+<input
+type="radio"
+name="quizMode"
+value="latin">
+
+ラテン名 → 生薬
+
+</label>
+
+<br><br>
+
+
+<label>
+
+<input
+type="radio"
+name="quizMode"
+value="reverseIngredient">
+
+生薬 → 成分
+
+</label>
+
+<br><br>
+
+
+<label>
+
+<input
+type="radio"
+name="quizMode"
+value="reverseLatin">
+
+生薬 → ラテン名
+
+</label>
+
+<br><br>
+
+
+<label>
+
+<input
+type="radio"
+name="quizMode"
+value="reverseEffect">
+
+生薬 → 効能
+
+</label>
+
+<br><br>
+
+
 <button onclick="startQuiz()">
+
 クイズ開始
+
 </button>
 
 </div>
@@ -74,12 +127,14 @@
 </div>
 
 
+
 <!-- 問題画面 -->
-<div id="quizScreen" style="display:none;">
+<div
+id="quizScreen"
+style="display:none;"
+>
 
-
-
-<hr>
+<div class="container">
 
 <div class="searchArea">
 
@@ -93,38 +148,64 @@ onkeyup="autoComplete()">
 
 </div>
 
+
 <div id="searchResult"></div>
 
+
 <button onclick="toggleReview()">
-📚苦手問題復習
+📚 苦手問題復習
 </button>
 
 <button onclick="resetWrong()">
-🗑苦手リセット
+🗑 苦手リセット
 </button>
-
-<h2 id="question"></h2>
-
-<img id="questionImage">
-
-<img id="compoundImage">
-
-<div id="choices"></div>
 
 <button onclick="startWeakMode()">
 📚 苦手だけ出題
 </button>
 
+<hr>
+
+
+<h2 id="question"></h2>
+
+
+<img id="questionImage">
+
+<img id="compoundImage">
+
+
+<div id="choices"></div>
+
+
 <div id="result"></div>
 
 <div id="detail"></div>
 
+
+<br>
+
+
 <button onclick="loadQuestion()">
+
 次の問題
+
+</button>
+
+<button onclick="location.reload()">
+
+ホームへ戻る
+
 </button>
 
 </div>
 
+</div>
+
+
 <script src="script.js"></script>
 
 </body>
+
+</html>
+```
