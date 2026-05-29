@@ -14,6 +14,25 @@ localStorage.getItem(
 
 let weakMode=false;
 
+const question =
+document.getElementById("question");
+
+const result =
+document.getElementById("result");
+
+const detail =
+document.getElementById("detail");
+
+const herbImage =
+document.getElementById("questionImage");
+
+const compoundImage =
+document.getElementById("compoundImage");
+
+const choicesDiv =
+document.getElementById("choices");
+
+
 let reviewMode=false;
 
 
@@ -256,9 +275,7 @@ choices = shuffle([
     ...wrongChoices
 ]);
 
-document.getElementById(
-"choices"
-).innerHTML=
+choicesDiv.innerHTML=
 
 choices.map(choice=>
 
