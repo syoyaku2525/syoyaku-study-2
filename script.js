@@ -330,7 +330,32 @@ wrongQuestions)
 
 showDetail();
 
+function toggleWrongList(){
+
+const wrongListDiv =
+
+document.getElementById(
+"wrongList"
+);
+
+if(
+wrongListDiv.style.display
+==="none"
+){
+
+wrongListDiv.style.display=
+"block";
+
 updateWrongList();
+
+}else{
+
+wrongListDiv.style.display=
+"none";
+
+}
+
+}
 
 }
 
@@ -560,7 +585,7 @@ if(wrongQuestions.length===0){
 
 wrongListDiv.innerHTML =
 
-"";
+"<p>間違えた問題はありません</p>";
 
 return;
 
@@ -584,6 +609,52 @@ ${wrongQuestions.map(name=>
 
 </ul>
 
+<button onclick="clearWrongList()">
+
+一覧をリセット
+
+</button>
+
 `;
+
+}
+
+
+function toggleWrongList(){
+
+const wrongListDiv =
+
+document.getElementById(
+"wrongList"
+);
+
+if(
+wrongListDiv.style.display
+==="none"
+){
+
+wrongListDiv.style.display=
+"block";
+
+updateWrongList();
+
+}else{
+
+wrongListDiv.style.display=
+"none";
+
+}
+
+}
+
+function clearWrongList(){
+
+wrongQuestions=[];
+
+localStorage.removeItem(
+"wrongQuestions"
+);
+
+updateWrongList();
 
 }
